@@ -37,6 +37,7 @@ Pada tugas 1 ini dataset yang saya gunakan adalah Dataset Air Quality.
   Dataset berupa 1 file excel (.xls) yang memiliki 9358 record data dan 15 atribut. Dataset kemudian dibagi menjadi 2 bagian menggunakan fitur partitioning pada aplikasi KNIME. Inputan berupa 1 file excel (.xls) yang kemudian di split menjadi 2 dengan relative 50% secara random:
     - __data 1__, dimana data dimasukkan ke dalam sebuah database dengan jumlah baris data 4678.
     - __data 2__, dimana data berupa file excel dengan jumlah baris data 4679.
+    ! [Komponen Sistem Operasi](https://github.com/afrchmdi/Tugas1-BigData-ETL-KNIME/blob/master/split-data.png)
 ### Modeling
 Jelaskan proses membaca data dari dua sumber yang berbeda
 Jelaskan proses modeling (join atau append) yang dilakukan beserta setting node pada KNIME
@@ -51,6 +52,7 @@ Jelaskan proses modeling (join atau append) yang dilakukan beserta setting node 
   4. __Concatenate__ untuk menggabungkan/meng-append kedua tabel menjadi 1 dimana data 2 di concatenate pada data 1.
   5. __Database Writer__ untuk memasukkan hasil penggabungan ke dalam database yang diinginkan.
   6. __Excel Writer__ untuk memasukkan hasil penggabungan tabel menjadi sebuah file excel (.xls).
+  ! [Komponen Sistem Operasi](https://github.com/afrchmdi/Tugas1-BigData-ETL-KNIME/blob/master/modelling.png)
   
 ### Evaluation
   Proses pengappend an dataset berhasil dilakukan, output berupa sebuah 1 file excel yang merupakan gabungan dari data 1 dan data 2 yang di split secara random.
