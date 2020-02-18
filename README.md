@@ -56,8 +56,12 @@ Jelaskan proses modeling (join atau append) yang dilakukan beserta setting node 
   ![Komponen Sistem Operasi](https://github.com/afrchmdi/Tugas1-BigData-ETL-KNIME/blob/master/modelling.png)
   
 ### Evaluation
-  Proses pengappend an dataset berhasil dilakukan, output berupa sebuah 1 file excel yang merupakan gabungan dari data 1 dan data 2 yang di split secara random.
+  Proses peng append an dataset berhasil dilakukan, output berupa sebuah 1 file excel yang merupakan gabungan dari data 1 dan data 2 yang di split secara random.
+  
+  ![partition](https://github.com/afrchmdi/Tugas1-BigData-ETL-KNIME/blob/master/partition.png)
   
 ### Deployment
-  OUput hasil dari penggabungan dataset berupa 1 file excel (.xls) dan juga database.
+  Ouput hasil dari penggabungan dataset berupa 1 file excel (.xls) dan juga database.
   
+  ![output db](https://github.com/afrchmdi/Tugas1-BigData-ETL-KNIME/blob/master/database.png)
+  ![ouput file](https://github.com/afrchmdi/Tugas1-BigData-ETL-KNIME/blob/master/datafile.png)
